@@ -22,7 +22,7 @@ public class kirmizitopolusturucu : MonoBehaviour
         katsayi *= -1;
         if (okScripti.canSayaci > 0 && zaman < 0)
         {
-            GameObject go = Instantiate(kirmizitop, new Vector3(Random.Range(-2.4f, 2.4f), 6, 0), Quaternion.Euler(0,0,0)) as GameObject;
+            GameObject go = Instantiate(kirmizitop, new Vector3(Random.Range(-8f, 8f), 6, 0), Quaternion.Euler(0,0,0)) as GameObject;
             go.GetComponent<Rigidbody2D>().AddForce(new Vector3(0,Random.Range(60f * katsayi, 100f * katsayi), 0));
             zaman = 5f;
         }
