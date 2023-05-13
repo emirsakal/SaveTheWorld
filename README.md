@@ -27,10 +27,14 @@ If the button doesn't working, you can also use this link: https://emirsakal.itc
 
 # Screenshots
 
+Main Menu
 ![Main Menu](https://github.com/emirsakal/SaveTheWorld/assets/77203035/289e54ec-bbf0-482b-947b-891cc7ba84b7)
 
+Normal Mode
 ![Normal Mode](https://github.com/emirsakal/SaveTheWorld/assets/77203035/f8897d12-7b34-4895-9bc4-bfa46573f7e4)
 
+Speed Mode
 ![Speed Mode](https://github.com/emirsakal/SaveTheWorld/assets/77203035/5b2887de-ec26-455b-a912-2c9a1137f8c8)
 
+Game Over Screen
 ![Game Over](https://github.com/emirsakal/SaveTheWorld/assets/77203035/a100786a-7718-4db1-996b-1d448089e054)
