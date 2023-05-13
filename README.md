@@ -24,3 +24,13 @@ You can play or download the game with using this button:
 [![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://emirsakal.itch.io/save-the-world) 
 
 If the button doesn't working, you can also use this link: https://emirsakal.itch.io/save-the-world
+
+# Screenshots
+
+![Main Menu](https://github.com/emirsakal/SaveTheWorld/assets/77203035/289e54ec-bbf0-482b-947b-891cc7ba84b7)
+
+![Normal Mode](https://github.com/emirsakal/SaveTheWorld/assets/77203035/f8897d12-7b34-4895-9bc4-bfa46573f7e4)
+
+![Speed Mode](https://github.com/emirsakal/SaveTheWorld/assets/77203035/5b2887de-ec26-455b-a912-2c9a1137f8c8)
+
+![Game Over](https://github.com/emirsakal/SaveTheWorld/assets/77203035/a100786a-7718-4db1-996b-1d448089e054)
