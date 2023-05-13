@@ -21,10 +21,6 @@ In **speed mode**, you only need to click meteors because there will be nothing 
 
 You can play the game without downloading here: https://emirsakal.itch.io/save-the-world
 
-If you would like to download and play on computer: [Press Here](https://github.com/emirsakal/SaveTheWorld/tree/main/PlayforPC)
+If you would like to download and play on computer: [![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/emirsakal/SaveTheWorld/tree/main/PlayforPC) and download the files.
 
-If you would like to download and play on mobile, [Press Here](https://github.com/emirsakal/SaveTheWorld/tree/main/Playformobile)
-
-<!-- BEGIN LATEST DOWNLOAD BUTTON -->
-[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/emirsakal/SaveTheWorld/tree/main/PlayforPC)
-<!-- END LATEST DOWNLOAD BUTTON -->
+If you would like to download and play on mobile, [![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/emirsakal/SaveTheWorld/tree/main/Playformobile) and download the files.
