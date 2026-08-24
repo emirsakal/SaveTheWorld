@@ -1,0 +1,6 @@
+# PlayforPC/ and Playformobile/ hold prebuilt Unity players, not source code.
+# Unity's bundled Mono runtime ships .aspx files, which made GitHub Linguist
+# report this repository as "ASP.NET". Marking the build folders as vendored
+# keeps the language stats on the actual game code (C#).
+PlayforPC/**      linguist-vendored
+Playformobile/**  linguist-vendored

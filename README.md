@@ -1,40 +1,161 @@
-# Save the World
+<h1 align="center">🌍 Save the World</h1>
 
-Save the World is a bubble pop game. This is **the first ever game that I developed**.
-At the start of the game, you have 1 life. Each green heart you click gives you a +1 Life and each skull you click or meteor you miss gives you a -1 Life. Your goal is to get the highest score before our world collapses.
+<p align="center">
+  A fast-paced 2D arcade pop game made in Unity.<br>
+  Pop the falling meteors, dodge the skulls, and grab the green hearts before the world collapses.
+</p>
 
+<p align="center">
+  <a href="https://emirsakal.itch.io/save-the-world"><img src="https://custom-icon-badges.demolab.com/badge/-Play%20%2F%20Download-blue?style=for-the-badge&logo=download&logoColor=white" alt="Play / Download"></a>
+</p>
 
-In **normal mode**, you should click the meteors and avoid clicking the skulls. Once in a while, there will be a green heart coming (which has a ridiculous amount of speed) which you should click and get a +1 Life.
-In **speed mode**, you only need to click meteors because there will be nothing else spawning. Try to get the highest score.
+<p align="center">
+  <img src="https://img.shields.io/badge/Unity-2019.4.15f1-000000?style=flat-square&logo=unity" alt="Unity 2019.4.15f1">
+  <img src="https://img.shields.io/badge/language-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" alt="C#">
+  <img src="https://img.shields.io/badge/platform-Windows-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows">
+  <img src="https://img.shields.io/badge/version-1.2-informational?style=flat-square" alt="Version 1.2">
+</p>
 
-# Objects
+> This is **the first game I ever developed** — a small 2D Unity project kept here in full, source and builds included.
 
-<img src="https://img.itch.zone/aW1nLzEyMTU1MzE0LnBuZw==/original/NOVvQU.png" height="100" width="100" style="color: inherit; font-family: inherit; font-size: inherit;" alt="heart" title="heart"> **Heart:** Shows how many lives you have left.
+---
 
-<img src="https://img.itch.zone/aW1nLzEyMTU1MzA1LnBuZw==/original/Y%2F3FG9.png" height="180" width="100" style="color: inherit; font-family: inherit; font-size: inherit;" alt="meteor" title="meteor"> **Meteor:** You should destroy it so that our world can survive.
+## 🎮 Play
 
-<img src="https://img.itch.zone/aW1nLzEyMTU1MzA2LnBuZw==/original/NRgz1g.png" alt="skull" title="skull" height="80" width="80"> **Skull:** You shouldn't touch this one. This means -1 Life.
+**▶️ [Play or download on itch.io](https://emirsakal.itch.io/save-the-world)**
 
-<img src="https://img.itch.zone/aW1nLzEyMTU1MzE4LnBuZw==/original/GNnxwM.png" alt="green-heart" title="green-heart" height="80" width="80"> **Green Heart:** You should try to touch this one. Gives you +1 Life.
+You can also run one of the prebuilt Windows players straight from this repository — see [Prebuilt builds](#-prebuilt-builds).
 
-# How to Play?
+---
 
-You can play or download the game with using this button: 
+## 🕹️ How to Play
 
-[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://emirsakal.itch.io/save-the-world) 
+You start with **1 life** and a score of **0**. Everything falls from the top of the screen; you click things with the mouse.
 
-If the button doesn't working, you can also use this link: https://emirsakal.itch.io/save-the-world
+| | Object | What it does |
+|:-:|:--|:--|
+| <img src="https://img.itch.zone/aW1nLzEyMTU1MzA1LnBuZw==/original/Y%2F3FG9.png" width="45" alt="meteor"> | **Meteor** | **Click it** → **+1 score**. Let it reach the bottom of the screen → **−1 life**. |
+| <img src="https://img.itch.zone/aW1nLzEyMTU1MzA2LnBuZw==/original/NRgz1g.png" width="45" alt="skull"> | **Skull** | **Don't touch it.** Clicking it costs you **−1 life**. Letting it fall off-screen is harmless. |
+| <img src="https://img.itch.zone/aW1nLzEyMTU1MzE4LnBuZw==/original/GNnxwM.png" width="45" alt="green heart"> | **Green Heart** | **Click it** → **+1 life**, up to a maximum of 3. Rare, and very fast. |
+| <img src="https://img.itch.zone/aW1nLzEyMTU1MzE0LnBuZw==/original/NOVvQU.png" width="45" alt="heart"> | **Heart (HUD)** | Not clickable — the hearts in the corner show how many lives you have left. |
 
-# Screenshots
+When your lives hit **0**, every object still on screen pops at once, the **GAME OVER** screen appears, and you can choose **PLAY AGAIN** or **MAIN MENU**.
 
-Main Menu
-![Main Menu](https://github.com/emirsakal/SaveTheWorld/assets/77203035/289e54ec-bbf0-482b-947b-891cc7ba84b7)
+The goal is simple: **get the highest score before the world collapses.**
 
-Normal Mode
-![Normal Mode](https://github.com/emirsakal/SaveTheWorld/assets/77203035/f8897d12-7b34-4895-9bc4-bfa46573f7e4)
+---
 
-Speed Mode
-![Speed Mode](https://github.com/emirsakal/SaveTheWorld/assets/77203035/5b2887de-ec26-455b-a912-2c9a1137f8c8)
+## 🚀 Game Modes
 
-Game Over Screen
-![Game Over](https://github.com/emirsakal/SaveTheWorld/assets/77203035/a100786a-7718-4db1-996b-1d448089e054)
+Both modes are picked from the main menu.
+
+### Normal Mode
+
+The full game — all three objects spawn.
+
+| | |
+|:--|:--|
+| **Spawns** | Meteor every **1 s** · Skull every **5 s** · Green heart after **20 s**, then every **15 s** |
+| **Lives** | Start at 1, **maximum 3**, shown as hearts in the HUD |
+| **Difficulty** | Everything falls faster in steps: extra downward force is added for every **10 points** you score |
+| **Twist** | Past **50 points**, green hearts start falling about **twice as fast** — that +1 life gets much harder to catch |
+
+### Speed Mode
+
+Pure reflexes. **Only meteors spawn** — no skulls, no green hearts, and no way to gain a life back.
+
+| | |
+|:--|:--|
+| **Spawns** | Meteor every **1 s** |
+| **Lives** | 1, and there is no HUD — **a single missed meteor ends the run** |
+| **Difficulty** | Speed ramps up every **5 points** instead of every 10, so it gets brutal roughly twice as fast |
+
+---
+
+## 📸 Screenshots
+
+| Main Menu | Normal Mode |
+|:-:|:-:|
+| ![Main Menu](https://github.com/emirsakal/SaveTheWorld/assets/77203035/289e54ec-bbf0-482b-947b-891cc7ba84b7) | ![Normal Mode](https://github.com/emirsakal/SaveTheWorld/assets/77203035/f8897d12-7b34-4895-9bc4-bfa46573f7e4) |
+
+| Speed Mode | Game Over |
+|:-:|:-:|
+| ![Speed Mode](https://github.com/emirsakal/SaveTheWorld/assets/77203035/5b2887de-ec26-455b-a912-2c9a1137f8c8) | ![Game Over](https://github.com/emirsakal/SaveTheWorld/assets/77203035/a100786a-7718-4db1-996b-1d448089e054) |
+
+---
+
+## 📦 Repository Layout
+
+```
+SaveTheWorld/
+├── SaveTheWorld/        # The Unity project — open this folder in Unity
+│   ├── Assets/
+│   │   ├── Fonts/       # Arcade / pixel display fonts
+│   │   ├── Images/      # Sprites, backgrounds, PSD sources
+│   │   ├── Prefabs/     # Meteor, skull, green heart + pop animations
+│   │   ├── Scenes/      # ana_sahne (menu), game (normal), speedgame (speed)
+│   │   ├── Scripts/     # 17 C# MonoBehaviours
+│   │   └── Sounds/      # Music and SFX
+│   ├── Packages/
+│   └── ProjectSettings/
+├── PlayforPC/           # Prebuilt Windows player
+├── Playformobile/       # Prebuilt Windows player, alternate scene layout
+└── .github/
+```
+
+### 🖥️ Prebuilt builds
+
+Both folders are ready-to-run **Windows (x86) Unity players** — download the folder and run `Save The World.exe`. They ship the same executable and the same compiled game code; only the baked scene layouts differ (`Playformobile` uses a lighter background setup).
+
+> ⚠️ Despite its name, `Playformobile` is **not** an Android or iOS package — it is a Windows build too. For mobile-friendly play, use the [itch.io page](https://emirsakal.itch.io/save-the-world).
+
+---
+
+## 🛠️ Build from Source
+
+**Requirements:** [Unity **2019.4.15f1**](https://unity.com/releases/editor/archive) (LTS) — other 2019.4.x versions will very likely work as well.
+
+```bash
+git clone https://github.com/emirsakal/SaveTheWorld.git
+```
+
+1. Open **Unity Hub → Add project**, and select the inner **`SaveTheWorld/`** folder (the one containing `Assets/`, `Packages/` and `ProjectSettings/`) — *not* the repository root.
+2. Open `Assets/Scenes/ana_sahne.unity` and press **▶ Play**.
+3. To make your own build: **File → Build Settings → PC, Mac & Linux Standalone → Build**. All three scenes are already registered in the build list.
+
+---
+
+## 🧩 How It Works
+
+The code is small and deliberately straightforward — a good read if you are starting out with Unity 2D. Scripts are named in Turkish (`top` = ball, `kontrol` = control, `oluşturucu` = spawner, `can` = life, `puan`/`patlayan balon` = score).
+
+| Script | Role |
+|:--|:--|
+| `oyunKontrol.cs` | Normal-mode game state: score, lives, heart HUD, game-over sequence |
+| `speedKontrol.cs` | The same for Speed Mode, minus the heart HUD |
+| `*olusturucu.cs` / `speedmavi.cs` | Spawners — pick a random X at the top of the screen, instantiate an object, and add downward force scaled to the current score |
+| `*kontrol*.cs` | Per-object behaviour — `OnMouseDown` to pop, plus the off-screen check at `y < -5.5` |
+| `Buton*.cs`, `digersahne.cs`, `speedSahne.cs` | Scene navigation for the menu and game-over buttons |
+
+**Difficulty scaling in one line:** each spawner computes `-(score / N)` (where `N` is 10 in Normal Mode and 5 in Speed Mode) and uses it to multiply the extra downward force applied to every new object. Below the first threshold the objects simply fall under gravity; past it, every tier makes the screen noticeably faster.
+
+**Technical details**
+
+- **Engine:** Unity 2019.4.15f1, 2D (URP not used), Mono scripting backend
+- **Rendering:** Sprite Renderer + Unity UI (uGUI), TextMeshPro available
+- **Physics:** 2D rigidbodies with `AddForce`; objects are cleaned up once they pass `y = -5.5`
+- **Input:** Legacy input via `OnMouseDown` (mouse click / touch tap)
+- **Product:** `Save The World` v1.2 by *EFS*
+
+---
+
+## 🙌 Credits
+
+- **Game, art assembly and code:** [@emirsakal](https://github.com/emirsakal)
+- **Music:** *Cherry Metal* by Arthur Vyncke
+
+---
+
+<p align="center">
+  <sub>Made with Unity 🎮 — my first game. Thanks for playing!</sub>
+</p>
